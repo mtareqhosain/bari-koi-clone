@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/bari-koi-clone/static/css/main.3905d044.chunk.css",
+    "main.js": "/bari-koi-clone/static/js/main.6936542d.chunk.js",
+    "main.js.map": "/bari-koi-clone/static/js/main.6936542d.chunk.js.map",
+    "runtime-main.js": "/bari-koi-clone/static/js/runtime-main.d842cc5d.js",
+    "runtime-main.js.map": "/bari-koi-clone/static/js/runtime-main.d842cc5d.js.map",
+    "static/js/2.678d5578.chunk.js": "/bari-koi-clone/static/js/2.678d5578.chunk.js",
+    "static/js/2.678d5578.chunk.js.map": "/bari-koi-clone/static/js/2.678d5578.chunk.js.map",
+    "index.html": "/bari-koi-clone/index.html",
+    "precache-manifest.9e157645fbae1d24ce42bb1b8d345b83.js": "/bari-koi-clone/precache-manifest.9e157645fbae1d24ce42bb1b8d345b83.js",
+    "service-worker.js": "/bari-koi-clone/service-worker.js",
+    "static/css/main.3905d044.chunk.css.map": "/bari-koi-clone/static/css/main.3905d044.chunk.css.map",
+    "static/js/2.678d5578.chunk.js.LICENSE.txt": "/bari-koi-clone/static/js/2.678d5578.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d842cc5d.js",
+    "static/js/2.678d5578.chunk.js",
+    "static/css/main.3905d044.chunk.css",
+    "static/js/main.6936542d.chunk.js"
+  ]
+}
