@@ -1,0 +1,143 @@
+.container {
+    display: flex;
+    padding: 10;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    box-sizing: border-box;
+    
+}
+
+.search_container {
+    padding-top: 5%;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.input_container{
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+}
+.input {
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    color: teal;
+}
+
+/* .text_input {
+    flex: 4;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;  
+} */
+
+.text_input-light {
+    flex: 4;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 10px; 
+    color: black; 
+    background-color: azure;
+}
+
+.text_input-dark {
+    flex: 4;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;  
+    color: white;
+    background-color: darkgrey;
+}
+
+.text_input:focus {
+    outline: none;
+}
+
+
+.list_container{
+    flex: 4;
+    padding: 0;
+    
+}
+.list li{
+    border: 1px solid #d3d3d3; /* Add a border to all links */
+    border-radius: 10;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Grey background color */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 18px; /* Increase the font-size */
+    color: #24211c; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+    
+}
+.list p {
+    padding: 0;
+    margin: 0;
+    color: #867f80;
+} 
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.list span {
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+  margin-top: -1px; 
+  background-color: #f6f6f6; 
+  padding: 12px; 
+  text-decoration: none;
+  font-size: 18px; 
+  color: black; 
+  display: block; 
+}
+.list span:hover {
+    background-color: #eee;
+}
+
+
+.rightButton {
+    position: absolute;
+    top: 0;
+    right: -70;
+    z-index: 1;
+}
+
+
+.map_container {
+    position: relative;
+    flex: 1;
+    
+    height: 100vh;
+}
+
+.leftButton {
+    position: absolute;
+    top: 0;
+    left: -45px;
+    z-index: 1;
+    visibility: visible;
+    display: block;
+    background: transparent;
+    border: none;
+}
+
+.address_details {
+    flex: 1;
+    flex-direction: column;
+     margin: 0px !important;
+    padding: 0px !important;
+    
+}
+.address_details h1,h4,h5 {
+    margin: 0px !important;
+    padding: 0px !important;
+    
+}
+
+
